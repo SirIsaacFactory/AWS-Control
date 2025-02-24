@@ -70,7 +70,7 @@ def run(event, context):
     #-------------------------------------------------------
     # Loglevel
     if "loglevel" in event:
-        if event["leglevel"] in LOGLEVELS:
+        if event["loglevel"] in LOGLEVELS:
             loglevel = event["loglevel"]
         else:
             loglevel = DEFAULT_LOGLEVEL
